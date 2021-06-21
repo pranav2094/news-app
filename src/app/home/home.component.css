@@ -1,0 +1,51 @@
+#typed-element {
+  color: rgb(179, 10, 10);
+  text-decoration: underline;
+}
+.user{
+  font:  700 40px "Muli", sans-serif;
+}
+h1 {
+  padding-left: 10px;
+  text-align: center;
+  color: #1d2667;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(405px, 1fr));
+  grid-gap: 15px;
+}
+
+.container>.card img {
+  max-width: 100%;
+  height: 250px;
+}
+
+.container>.card:hover {
+  box-shadow: -1px 10px 29px 0px rgba(0, 0, 0, 0.8);
+}
+
+.formfield {
+  padding: 20px;
+}
+.plb{
+  padding: 0px 10px 10px 20px !important
+}
+
+.center {
+  padding: 20px;
+}
+.mb-10{
+  margin-bottom:10px !important ;
+}
+.text-center{
+  text-align: center !important;
+}
+.mat-button.mat-primary, .mat-icon-button.mat-primary, .mat-stroked-button.mat-primary{
+  padding: 0px 12px !important;
+  margin: 0px 5px !important;
+}
+.btn-group-vertical>.btn-group:after, .btn-group-vertical>.btn-group:before, .btn-toolbar:after, .btn-toolbar:before, .clearfix:after, .clearfix:before, .container-fluid:after, .container-fluid:before, .container:after, .container:before, .dl-horizontal dd:after, .dl-horizontal dd:before, .form-horizontal .form-group:after, .form-horizontal .form-group:before, .modal-footer:after, .modal-footer:before, .modal-header:after, .modal-header:before, .nav:after, .nav:before, .navbar-collapse:after, .navbar-collapse:before, .navbar-header:after, .navbar-header:before, .navbar:after, .navbar:before, .pager:after, .pager:before, .panel-body:after, .panel-body:before, .row:after, .row:before{
+  display: table !important;
+} 
